@@ -1,0 +1,64 @@
+body {
+  font: 18px arial, sans-serif;
+  background: url("https://cdn.pixabay.com/photo/2015/09/18/15/06/texture-945763_1280.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#animals {
+  width: 100%;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.jumbotron {
+  padding: 0px;
+  background: transparent;
+}
+
+.animal-item {
+  float: left;
+  padding: 10px;
+}
+
+form {
+  width: 100%;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+button,
+input[type="submit"] {
+  padding: 5px 20px;
+  margin: 0 10px 10px 0;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4286f4;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #bbb;
+  width: 200px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #334e4d;
+}
+
+button.active {
+  background: #334e4d;
+}

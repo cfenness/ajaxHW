@@ -1,6 +1,6 @@
 body {
   font: 18px arial, sans-serif;
-  background: url("https://cdn.pixabay.com/photo/2015/09/18/15/06/texture-945763_1280.jpg");
+  background: url("background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
